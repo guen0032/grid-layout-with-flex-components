@@ -26,7 +26,7 @@ border-radius: 8px;
 font-size: 4rem;
 }
 
-/* MY CODE */
+/********* MY CODE **********/
 
 .emojis {
 display: grid;
@@ -37,12 +37,14 @@ gap: 1em;
 .emoji {
 display: flex;
 flex-direction: column;
+justify-content: space-between;
+}
+
+.emoji p{
+flex-grow: 1;
 }
 
 .icon {
 order: -1;
+align-self: center;
 }
-/*
-body {
-background: url('../grid-flex-assignment.png') 3px 19px no-repeat;
-} */
